@@ -97,12 +97,12 @@ export const MapView = () => {
   return (
     <div className="h-screen flex flex-col bg-gray-50">
       {/* Header */}
-      <div className="bg-white shadow-sm border-b border-gray-200 ">
+      <div className="bg-white shadow-sm border-b border-gray-200 p-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <h1 className="text-2xl font-bold text-gray-900 flex items-center">
               <MapPin className="w-6 h-6 mr-2 text-green-600" />
-              Carte des zones de chasse
+              SafeHunt - Carte interactive
             </h1>
 
             <div className="flex items-center space-x-4 text-sm">
@@ -260,11 +260,13 @@ export const MapView = () => {
             </Card>
           </div>
         )}
+
         <HuntingMap
           showZoneCreator={showZoneCreator}
           onZoneCreated={handleZoneCreated}
           zones={filteredZones}
         />
+
         {filteredZones.length > 0 && (
           <div className="absolute top-4 right-4 w-80 max-h-[calc(100vh-200px)] overflow-y-auto z-[500]">
             <Card
@@ -370,6 +372,7 @@ export const MapView = () => {
             </Card>
           </div>
         )}
+
         {!loading && !showZoneCreator && filteredZones.length === 0 && (
           <div className="absolute inset-0 flex items-center justify-center z-[500] pointer-events-none">
             <div className="pointer-events-auto">

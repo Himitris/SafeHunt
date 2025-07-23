@@ -113,7 +113,7 @@ export const Register = () => {
               Créer un compte
             </h2>
             <p className="text-gray-600 mt-2">
-              Rejoignez la communauté Zones de Chasse
+              Rejoignez la communauté SafeHunt
             </p>
           </div>
 

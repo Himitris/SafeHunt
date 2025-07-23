@@ -39,11 +39,9 @@ export const Header = () => {
               </div>
               <div className="hidden sm:block">
                 <span className="font-bold text-xl text-white tracking-tight">
-                  Zones
+                  Safe
                 </span>
-                <span className="font-light text-emerald-200 ml-1">
-                  de Chasse
-                </span>
+                <span className="font-light text-emerald-200 ml-1">Hunt</span>
               </div>
             </Link>
           </div>

@@ -131,7 +131,7 @@ export const AdminPanel = () => {
               </h1>
               <p className="text-gray-600">
                 Bonjour {userData?.displayName}, gérez les utilisateurs et les
-                certifications
+                certifications SafeHunt
               </p>
             </div>
           </div>

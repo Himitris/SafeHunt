@@ -98,7 +98,7 @@ export const Login = () => {
             </div>
             <h2 className="text-2xl font-bold text-gray-900">Connexion</h2>
             <p className="text-gray-600 mt-2">
-              Accédez à votre compte Zones de Chasse
+              Accédez à votre compte SafeHunt
             </p>
           </div>
 

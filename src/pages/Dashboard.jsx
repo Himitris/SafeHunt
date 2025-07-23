@@ -193,7 +193,7 @@ export const Dashboard = () => {
         {!isHunter && !isAdmin ? (
           // Vue randonneur
           <div className="space-y-6">
-            <Card title="Bienvenue sur Zones de Chasse">
+            <Card title="Bienvenue sur SafeHunt">
               <div className="text-center py-8">
                 <Users className="w-16 h-16 text-green-600 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">

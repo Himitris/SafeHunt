@@ -34,11 +34,11 @@ export const Home = () => {
 
             <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight animate-fade-in-up">
               <span className="bg-gradient-to-r from-emerald-400 via-green-400 to-emerald-500 bg-clip-text text-transparent">
-                Zones de Chasse
+                SafeHunt
               </span>
               <br />
               <span className="text-3xl md:text-5xl font-normal text-gray-300">
-                Sécurité partagée
+                Chasse sécurisée
               </span>
             </h1>
 
@@ -264,10 +264,8 @@ export const Home = () => {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <span className="font-bold text-xl text-white">Zones</span>
-                  <span className="font-light text-emerald-200 ml-1">
-                    de Chasse
-                  </span>
+                  <span className="font-bold text-xl text-white">Safe</span>
+                  <span className="font-light text-emerald-200 ml-1">Hunt</span>
                 </div>
               </div>
               <p className="text-gray-300 max-w-md leading-relaxed mb-6">
@@ -367,11 +365,9 @@ export const Home = () => {
           <div className="border-t border-emerald-500/20 mt-12 pt-8 text-center">
             <p className="text-gray-400">
               &copy; 2025{" "}
-              <span className="text-emerald-400 font-medium">
-                Zones de Chasse
-              </span>
-              . Made with <span className="text-red-400">❤️</span> in France.
-              Tous droits réservés.
+              <span className="text-emerald-400 font-medium">SafeHunt</span>.
+              Made with <span className="text-red-400">❤️</span> in France. Tous
+              droits réservés.
             </p>
           </div>
         </div>
