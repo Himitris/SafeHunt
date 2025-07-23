@@ -37,7 +37,7 @@ Elle peut être utile à la fois pour les randonneurs soucieux de leur sécurit�
 ## Accès à l'application
 
 Une version de démonstration est disponible ici :
-👉 [https://safehunt-demo.vercel.app](https://safehunt-demo.vercel.app)
+👉 [https://safehunt-demo.vercel.app](https://safehunt.netlify.app/)
 
 ---
 
